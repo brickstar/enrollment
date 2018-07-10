@@ -1,6 +1,31 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/brickstar/turing/2module/enrollment/spec/navigation/user_can_navigate_from_nav_bar_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
       "/Users/brickstar/turing/2module/enrollment/spec/students/user_can_create_student_spec.rb": [
         1,
         null,
@@ -90,7 +115,7 @@
       ],
       "/Users/brickstar/turing/2module/enrollment/app/models/student.rb": [
         1,
-        null,
+        1,
         null
       ],
       "/Users/brickstar/turing/2module/enrollment/app/models/application_record.rb": [
@@ -98,29 +123,7 @@
         1,
         null
       ],
-      "/Users/brickstar/turing/2module/enrollment/app/controllers/students_controller.rb": [
-        1,
-        1,
-        4,
-        null,
-        null,
-        1,
-        4,
-        null,
-        null,
-        1,
-        2,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        2,
-        null,
-        null,
+      "/Users/brickstar/turing/2module/enrollment/app/controllers/addresses_controller.rb": [
         1,
         1,
         1,
@@ -136,7 +139,7 @@
         1,
         null,
         1,
-        2,
+        1,
         null,
         null
       ],
@@ -144,8 +147,55 @@
         1,
         1,
         null
+      ],
+      "/Users/brickstar/turing/2module/enrollment/app/models/address.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/brickstar/turing/2module/enrollment/app/controllers/students_controller.rb": [
+        1,
+        1,
+        5,
+        null,
+        null,
+        1,
+        4,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null
       ]
     },
-    "timestamp": 1531253252
+    "timestamp": 1531254871
   }
 }
