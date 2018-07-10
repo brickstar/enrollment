@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Enrollment</title>
-    <%= csrf_meta_tags %>
+<head>
+  <title>Enrollment</title>
+  <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all' %>
-    <%= javascript_include_tag 'application' %>
-  </head>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+</head>
 
-  <body>
-    <%= yield %>
-  </body>
+<body>
+  <nav id='navigation'>
+    <%= link_to 'See All Students', students_path  %>
+    <%= link_to 'Create a Student', new_student_path  %>
+  </nav>
+  <%= yield %>
+</body>
 </html>

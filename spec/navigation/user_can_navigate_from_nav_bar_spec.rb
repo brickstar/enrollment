@@ -10,7 +10,7 @@ describe 'user visits any page' do
       click_on 'See All Students'
     end
 
-    expect(current_path).to eq(students_path)
+    expect(current_path).to eq('/students')
 
     visit "/students/#{student.id}/edit"
 
