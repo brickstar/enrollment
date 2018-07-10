@@ -4,7 +4,7 @@ describe 'user visits students/:id/addresses/new' do
   it 'can create a new address' do
     student = Student.create!(name: 'Petey')
 
-    visit "/students/#{student.id}/addresses/new"
+    visit new_student_address_path(student)
 
     fill_in 'address[description]', with: 'office'
     fill_in 'address[street]', with: '9th'
@@ -14,7 +14,7 @@ describe 'user visits students/:id/addresses/new' do
 
     click_on 'Create Address'
 
-    expect(current_path).to eq("/students/#{student.id}")
+    expect(current_path).to eq(student_path(student))
 
     expect(page).to have_content("Description: #{student.addresses.last.description}")
     expect(page).to have_content("Street: #{student.addresses.last.street}")

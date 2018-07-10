@@ -5,7 +5,7 @@ describe 'user visits students index' do
     student1 = Student.create(name: 'Petey')
     student2 = Student.create(name: 'Heidi')
 
-    visit '/students'
+    visit students_path
 
     expect(page).to have_content("Name: #{student1.name}")
     expect(page).to have_content("Name: #{student2.name}")
