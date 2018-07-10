@@ -90,7 +90,7 @@
       ],
       "/Users/brickstar/turing/2module/enrollment/app/models/student.rb": [
         1,
-        null,
+        1,
         null
       ],
       "/Users/brickstar/turing/2module/enrollment/app/models/application_record.rb": [
@@ -146,6 +146,6 @@
         null
       ]
     },
-    "timestamp": 1531253252
+    "timestamp": 1531253674
   }
 }
