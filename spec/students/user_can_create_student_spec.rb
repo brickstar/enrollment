@@ -9,7 +9,7 @@ describe 'user visits students new' do
 
     click_on 'Create Student'
 
-    expect(current_path).to eq("students/#{Student.last.id}")
+    expect(current_path).to eq("/students/#{Student.last.id}")
     expect(page).to have_content("Name: #{Student.last.name}")
     expect(Student.all.length).to eq(1)
   end
