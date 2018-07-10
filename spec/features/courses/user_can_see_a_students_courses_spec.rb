@@ -6,7 +6,7 @@ describe 'user visits students show' do
     course1 = student.courses.create!(title: 'awesome')
     course2 = student.courses.create!(title: 'radical')
 
-    visit "/students/#{student.id}"
+    visit student_path(student)
 
     expect(page).to have_content(course1.title)
     expect(page).to have_content(course2.title)
