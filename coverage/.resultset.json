@@ -10,8 +10,20 @@
         1,
         1,
         null
+      ],
+      "/Users/brickstar/turing/2module/enrollment/app/controllers/students_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/brickstar/turing/2module/enrollment/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1531250411
+    "timestamp": 1531251427
   }
 }
