@@ -1,6 +1,19 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/brickstar/turing/2module/enrollment/spec/students/user_sees_a_student_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
       "/Users/brickstar/turing/2module/enrollment/spec/students/user_sees_all_students_spec.rb": [
         1,
         null,
@@ -43,6 +56,6 @@
         null
       ]
     },
-    "timestamp": 1531251616
+    "timestamp": 1531251788
   }
 }
