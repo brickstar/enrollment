@@ -19,7 +19,8 @@ describe 'user visits students/:id/addresses/new' do
     expect(page).to have_content("Description: #{student.addresses.last.description}")
     expect(page).to have_content("Street: #{student.addresses.last.street}")
     expect(page).to have_content("City: #{student.addresses.last.city}")
-    expect(page).to have_content("State: #{student.addresses.last.stats}")
+    # expect(page).to have_content("State: #{student.addresses.last.state}")
+    expect(page).to have_content("Zip: #{student.addresses.last.zip_code}")
     expect(Address.all.length).to eq(1)
   end
 end
