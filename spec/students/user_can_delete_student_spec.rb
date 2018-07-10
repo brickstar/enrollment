@@ -8,7 +8,7 @@ describe 'user visits student index' do
 
     visit "/students"
 
-    within "student-#{student2.id}" do
+    within "#student-#{student2.id}" do
       click_on 'Delete'
     end
 
