@@ -146,14 +146,74 @@
         null,
         null
       ],
-      "/Users/brickstar/turing/2module/enrollment/app/models/student.rb": [
+      "/Users/brickstar/turing/2module/enrollment/spec/models/address_spec.rb": [
+        1,
+        null,
         1,
         1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null,
         1,
+        2,
+        null,
+        null
+      ],
+      "/Users/brickstar/turing/2module/enrollment/app/models/address.rb": [
+        1,
+        1,
+        null,
         1,
         null
       ],
       "/Users/brickstar/turing/2module/enrollment/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/brickstar/turing/2module/enrollment/spec/models/course_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/brickstar/turing/2module/enrollment/app/models/course.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/brickstar/turing/2module/enrollment/spec/models/student_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/brickstar/turing/2module/enrollment/app/models/student.rb": [
+        1,
+        1,
+        null,
+        1,
         1,
         1,
         null
@@ -205,28 +265,10 @@
         1,
         null
       ],
-      "/Users/brickstar/turing/2module/enrollment/app/models/address.rb": [
-        1,
-        1,
-        null
-      ],
       "/Users/brickstar/turing/2module/enrollment/app/models/student_course.rb": [
         1,
         1,
         1,
-        null
-      ],
-      "/Users/brickstar/turing/2module/enrollment/app/models/course.rb": [
-        1,
-        1,
-        1,
-        null
-      ],
-      "/Users/brickstar/turing/2module/enrollment/app/controllers/courses_controller.rb": [
-        1,
-        1,
-        1,
-        null,
         null
       ],
       "/Users/brickstar/turing/2module/enrollment/app/controllers/addresses_controller.rb": [
@@ -248,8 +290,15 @@
         1,
         null,
         null
+      ],
+      "/Users/brickstar/turing/2module/enrollment/app/controllers/courses_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1531256644
+    "timestamp": 1531259873
   }
 }

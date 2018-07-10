@@ -40,6 +40,8 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'database_cleaner'
   gem 'simplecov'
+  gem 'pry'
+  gem 'selenium-webdriver'
 end
 
 group :development do
