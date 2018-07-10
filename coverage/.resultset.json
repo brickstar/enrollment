@@ -11,8 +11,8 @@
         null,
         1,
         null,
-        0,
-        0,
+        1,
+        1,
         null,
         null
       ],
@@ -31,6 +31,10 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/brickstar/turing/2module/enrollment/app/controllers/application_controller.rb": [
@@ -39,6 +43,6 @@
         null
       ]
     },
-    "timestamp": 1531251513
+    "timestamp": 1531251616
   }
 }
